@@ -3,6 +3,7 @@ body {
   no-repeat fixed center;
   background-size: cover;
   font-family:"Helvetica", Arial, sans-serif;
+  font-weight:lighter;
   margin:0 auto;
   text-align:center;
   margin-top:195px;
@@ -47,6 +48,9 @@ body {
     font-family:"Helvetica", Arial, sans-serif;
     &:hover {
       opacity:0.8;
+    }
+    &:focus {
+      outline:0;
     }
   }
 }
