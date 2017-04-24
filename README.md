@@ -1,24 +1,6 @@
-# README
+# Cosmic Tic-tac-toe
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Two player classic tic-tac-toe game built using Ruby, JavaScript, JQuery, HTML, CSS
+* Visit https://cosmic-tic-tac-toe.herokuapp.com/ and play a game in outer space!
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Dedicated to Neil deGrasse Tyson.
