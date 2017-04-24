@@ -90,4 +90,4 @@ function reset(table) {
   table.find('td').each(function() {
     $(this).removeClass('o').removeClass('x');
   });
-}
+} 
