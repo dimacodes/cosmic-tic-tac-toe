@@ -13,7 +13,7 @@ $(function() {
       var mark = currentPlayer(player);
       changeState(td, mark);
       if(checkWinner(table, mark)) {
-        messages.html('Player '+player+' has won.');
+        messages.html('Player '+player+' wins!');
         turn.html('');
       } else {
         player = nextPlayer(player);
@@ -61,7 +61,7 @@ function nextPlayer(player) {
 }
 
 function displayPlayerTurn(turn, player) {
-  turn.html('Player turn : '+player);
+  turn.html('Player turn: '+player);
 }
 
 function checkWinner(table, mark) {
@@ -90,4 +90,4 @@ function reset(table) {
   table.find('td').each(function() {
     $(this).removeClass('o').removeClass('x');
   });
-} 
+}
